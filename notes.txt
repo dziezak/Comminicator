@@ -1,0 +1,2 @@
+Hasło do bazy: Kornel2012!
+Port: 5432
