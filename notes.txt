@@ -1,2 +1,6 @@
 Hasło do bazy: Kornel2012!
 Port: 5432
+Stona moze dzialac lokalnie z baza: pod adresem http://127.0.0.1:5000/messages
+albo globalnie pod adresem: https://dziezak.github.io/Comminicator/'
+
+globalnie jeszcze musimy ogarnac jak stworzyc baze 
