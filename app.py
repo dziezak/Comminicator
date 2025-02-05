@@ -3,7 +3,7 @@ import psycopg2
 from database import get_db_connection
 from flask_cors import CORS
 
-
+# FOR IDIOTS: https://dziezak.github.io/Comminicator/
 app = Flask(__name__)
 CORS(app)
 
@@ -70,5 +70,9 @@ def send_message():
     
     return jsonify({"status": "OK"})
 
+# local home:
+#if __name__ == '__main__':
+#    app.run(debug=True)
+# internet:
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0', port=5000)
